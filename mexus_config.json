@@ -1,0 +1,10 @@
+{
+  "type": "paper",
+  "version": "1.21.10",
+  "ram_min": "4G",
+  "ram_max": "8G",
+  "java_path": "java",
+  "auto_backup": true,
+  "installed_type": "paper",
+  "installed_version": "1.21.10"
+}
