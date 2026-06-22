@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "f4582808-0edf-391f-8d02-3762720a6432",
+    "name": "Dextercino",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
