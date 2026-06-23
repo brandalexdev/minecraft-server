@@ -97,10 +97,11 @@ misc:
 network:
   kick-on-out-of-order-commond: false
 packet-limiter:
+  kick-threshold: 8000
   all-packets:
-    action: KICK
-    interval: 7.0
-    max-packet-rate: 1000.0
+    max-rate: 5000.0
+  gains:
+    max-rate: 2000.0
   kick-message: <red><lang:disconnect.exceeded_packet_rate>
   kick-threshold: 3000
   overrides:
@@ -132,12 +133,13 @@ spark:
   enable-immediately: false
   enabled: true
 unsupported-settings:
+  allow-unregistered-blocks-and-items: true
+  perform-username-validation: false
   allow-headless-pistons: false
   allow-permanent-block-break-exploits: false
   allow-piston-duplication: false
   allow-unsafe-end-portal-teleportation: false
   compression-format: ZLIB
-  perform-username-validation: true
   skip-tripwire-hook-placement-validation: false
   skip-vanilla-damage-tick-when-shield-blocked: false
   update-equipment-on-player-actions: true
