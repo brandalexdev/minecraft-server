@@ -16,7 +16,7 @@ allow-offline-mode-players: true
 #  - someones-hub
 
 # The default locale for Connect. By default, Connect uses the system locale
-#default-locale: en_US
+default-locale: es_ES
 
 # bStats is a stat tracker that is entirely anonymous and tracks only basic information
 # about Connect, such as how many people are online, how many servers are using Connect,

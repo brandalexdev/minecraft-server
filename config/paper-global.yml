@@ -94,12 +94,15 @@ misc:
   use-alternative-luck-formula: false
   use-dimension-type-for-custom-spawners: false
   xp-orb-groups-per-area: default
+network:
+  kick-on-out-of-order-commond: false
 packet-limiter:
   all-packets:
     action: KICK
     interval: 7.0
-    max-packet-rate: 500.0
+    max-packet-rate: 1000.0
   kick-message: <red><lang:disconnect.exceeded_packet_rate>
+  kick-threshold: 3000
   overrides:
     minecraft:place_recipe:
       action: DROP
